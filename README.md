@@ -1,15 +1,19 @@
 # script-tool
 movie script editing tool
 
-notice: 
-
+# some handies: 
  {/* A JSX comment */}
 
 
-run ./node_modules/.bin/webpack -d 
-    ./node_modules/.bin/webpack -d --display-error-details
-run npm start 
+# build with webpack to create a bundle
+# run with either
+ ./node_modules/.bin/webpack -d 
+ ./node_modules/.bin/webpack -d --display-error-details
 
+# start the server run 
+ npm start 
+
+# wishlist
 !!!.gitignore
 
 !!! npm audit
